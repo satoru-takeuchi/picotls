@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -ex
 
-TIMES=10
+TIMES=5
 EVENTS="task-clock,cycles,instructions,faults,cache-references,cache-misses,L1-dcache-loads,L1-dcache-load-misses,L1-dcache-stores,LLC-loads,LLC-load-misses,LLC-stores"
 
 rm -f *.log
